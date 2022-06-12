@@ -1,0 +1,101 @@
+body {
+    background-color: #580B9C;
+}
+
+.profile-card-l {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    text-align: center;
+
+
+
+    color: #BAA9E4;
+    background-color: #352964;
+
+    padding: 30px;
+
+}
+
+
+.profile-card-r {
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    text-align: center;
+
+
+
+    color: #BAA9E4;
+    background-color: #220141;
+
+    padding:30px;
+
+}
+
+#fname {
+
+    /* background-color: #220141; */
+
+    background-color: transparent;
+    color:#BAA9E4;
+    font-size: 13px;
+    text-align: center;
+
+    width: 200px;
+    height: 25px;
+
+    border: 3px;
+    outline: 3px;
+    border-color: #BAA9E4;
+    border-radius: 50px;
+}
+
+#fname:hover {
+
+    box-shadow: #BAA9E4 0px 0px 4px;
+
+}
+
+#surname {
+
+    /* background-color: #220141; */
+
+    background-color: white;
+
+
+    width: 200px;
+    height: 25px;
+
+    border: 3px;
+    border-color: #BAA9E4;
+    border-radius: 50px;
+}
+
+#names {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 10px;
+
+}
+ #submit {
+
+    width: 100px;
+    height: 25px;
+
+    color:white;
+    background-color: #BAA9E4;
+
+    border:none;
+    border-radius: 50px;
+
+
+ }
